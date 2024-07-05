@@ -1,0 +1,43 @@
+body {
+  background-color: lightblue;
+}
+
+.fixed-size-image {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border: 5px solid rgba(255, 0, 0, 0.3);
+}
+
+
+h1, h2  {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+}
+
+.mf-doom-image {
+  width: 100px;  
+  height: auto;  
+  border-radius: 20%;
+  border: 2px solid #000; 
+}
+
+aside {
+  float: right; /* Float the aside element to the right */
+  width: 300px; /* Adjust width as needed */
+  margin-right: 400px; /* Add margin for spacing from main content */
+  padding: 10px; /* Add padding to create space for the border */
+}
+
+.aside-image {
+  width: 170%; /* Ensure the image fills the width of the aside container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure image behaves as a block element */
+  border: 5px solid rgba(255, 0, 0, 0.3);
+}
+
+.styled-text {
+  font-size: 1.5em; /* Adjust font size as needed */
+  color: #333; /* Text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow */
+  margin: 10px; /* Adjust margin as needed */
+}
